@@ -3,38 +3,31 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const INTRO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const INTRO_CONTENT = `I’m a software developer with a passion for pushing the boundaries of technology. From crafting high-performance backend solutions for large-scale e-commerce platforms to exploring the exciting realms of blockchain, smart contracts, and NFTs, I thrive on solving complex problems. My toolkit spans across Spring Boot, MongoDB, Postgres, Kafka, Solidity, Web3.js, and more. Whether it’s developing scalable infrastructure, automating systems, or diving into data with NLP and computer vision, I’m all about delivering cutting-edge solutions that fuel innovation and business growth.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I'm a software developer passionate about backend systems and blockchain technologies. With experience building scalable solutions and exploring innovative tech, I thrive on solving complex challenges. I’m always looking for ways to push the boundaries of what’s possible while collaborating with dynamic teams. I enjoy staying ahead of the curve and delivering impactful results that drive growth and efficiency.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "01 / 2023 - Present",
+    role: "Software Developer",
+    company: "Quinbay Technologies",
+    description: `Developed robust backend solutions for an Indonesian e-commerce platform using Spring Boot. Collaborated closely with stakeholders to define project requirements, streamline workflows, and meet delivery timelines, ensuring high performance and scalability.`,
+    technologies: ["Spring boot", "MongoDB", "Postgres", "Redis", "Kafka"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "01 / 2022 - 06 / 2022",
+    role: "Blockchain Research Intern",
+    company: "Optisol Business Solutions",
+    description: `Explored blockchain technologies like smart contracts and NFTs and decentralized app's. Led a team to develop blockchain solutions, including payroll automation and certificate verification.`,
+    technologies: ["Solidity", "Web3.js", "Ethereum", "IPFS"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "06 / 2021 - 12 / 2021",
+    role: "Data Analyst Intern",
+    company: "Optisol Business Solutions",
+    description: `Worked on NLP and computer vision projects, tackling audio processing challenges and transforming unstructured text data like resumes into valuable insights.`,
+    technologies: ["Python", "NLTK", "AWS Transcribe", "OpenCV"],
   },
 ];
 
@@ -70,7 +63,6 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  phoneNo: "+(91) 9578355667 ",
+  email: "harishsundar235@gmail.com",
 };
