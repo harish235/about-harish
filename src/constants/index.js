@@ -1,7 +1,6 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/project-1.jpeg";
+import project2 from "../assets/projects/project-2.jpeg";
+import project4 from "../assets/projects/project-4.jpeg";
 
 export const INTRO_CONTENT = `I’m a software developer with a passion for pushing the boundaries of technology. From crafting high-performance backend solutions for large-scale e-commerce platforms to exploring the exciting realms of blockchain, smart contracts, and NFTs, I thrive on solving complex problems. My toolkit spans across Spring Boot, MongoDB, Postgres, Kafka, Solidity, Web3.js, and more. Whether it’s developing scalable infrastructure, automating systems, or diving into data with NLP and computer vision, I’m all about delivering cutting-edge solutions that fuel innovation and business growth.`;
 
@@ -33,32 +32,25 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Speech analytics of customer calls",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "The objective is to classify the calls in which the customers are satisfied or not satisfied based on their conversation with the agent.",
+    technologies: ["Python", "AWS Transcribe", "NLTK", "AWS S3"],
   },
   {
-    title: "Task Management App",
+    title: "Intelligent Resume Text Extraction System",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "To develop an intelligent system to extract and structure key information from resumes in PDF format using NLP techniques, handling complex layouts and multiple text instances in the same line.",
+    technologies: ["Python", "OPenCv", "Tesseract", "EAST model", "NLTK"],
   },
   {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
+    title: "Personality Traits Analysis",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "The idea of this project is to build a sentiment analysis model that detects the emotions that underlie a tweet, rather than the usual sentiment classification that only involves truly contrasting sentiments of Positive and Negative.",
+    technologies: ["Python", "NLTK", "LSTM"],
   },
 ];
 
