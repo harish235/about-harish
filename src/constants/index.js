@@ -2,6 +2,12 @@ import project1 from "../assets/projects/project-1.jpeg";
 import project2 from "../assets/projects/project-2.jpeg";
 import project4 from "../assets/projects/project-4.jpeg";
 
+export const SOCIAL_URLS = {
+  linkedIn : "https://www.linkedin.com/in/harish-ss/",
+  github : "https://github.com/harish235",
+  instagram: "https://www.instagram.com/hariz_023/"
+}
+
 export const INTRO_CONTENT = `I’m a software developer with a passion for pushing the boundaries of technology. From crafting high-performance backend solutions for large-scale e-commerce platforms to exploring the exciting realms of blockchain, smart contracts, and NFTs, I thrive on solving complex problems. My toolkit spans across Spring Boot, MongoDB, Postgres, Kafka, Solidity, Web3.js, and more. Whether it’s developing scalable infrastructure, automating systems, or diving into data with NLP and computer vision, I’m all about delivering cutting-edge solutions that fuel innovation and business growth.`;
 
 export const ABOUT_TEXT = `I'm a software developer passionate about backend systems and blockchain technologies. With experience building scalable solutions and exploring innovative tech, I thrive on solving complex challenges. I’m always looking for ways to push the boundaries of what’s possible while collaborating with dynamic teams. I enjoy staying ahead of the curve and delivering impactful results that drive growth and efficiency.`;
